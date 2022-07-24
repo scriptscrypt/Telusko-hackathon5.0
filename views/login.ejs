@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv=”Content-Security-Policy”
+    content="default-src *; img-src *">
+    <link rel="icon" type="image/x-icon" href="#">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- partial -->
+    <%- include('partials/css') %>
+    <title>Login</title>
+</head>
+<body>
+    
+    <section class="sec3 cflex">
+    
+
+    <form action="/login" method="POST">
+        <div class="cflex loginCard mp16">
+            <h1 class="txtPri">Login!</h1>
+        <input class="mp8 cardInput"  type="text" placeholder='Username' name='username' id='username' required/>
+        <input class="mp8 cardInput" type="password" placeholder='Password' name='password' id='password'required/>
+        <button class="btn mp8">Login</button>
+
+        <a class="Link mp8" href="/register">New User? Sign Up here</a>
+        </div>
+    </form>
+</section>
+
+</body>
+</html>

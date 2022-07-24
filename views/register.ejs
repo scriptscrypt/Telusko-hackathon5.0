@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv=”Content-Security-Policy”
+    content="default-src *; img-src *">
+    <link rel="icon" type="image/x-icon" href="#">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <!-- partial -->
+       <%- include('partials/css') %>
+
+    <title>Register</title>
+</head>
+<body>
+
+    <section class="sec3 cflex">
+  
+
+    <form action="/register" method="POST">
+       
+
+        <div class="cflex loginCard mp16">
+            <h1 class="txtPri" >Signup!</h1>
+        <input type="text" class="cardInput mp8" placeholder='Username' name='username' id='username' required/>
+        <input type="password" class="cardInput mp8" placeholder='Password' name='password' id='password' required/>
+       <!-- <div class="rflex">
+        <input type="radio" class="cardInput mp8" value="user" name="userType">User
+        <input type="radio" class="cardInput mp8" value="cc" name="userType">Content Creator
+    </div> -->
+        <button class="btn mp8">Sign Up</button>
+        
+        <a href="/login" class="Link mp16">Already Signed in? Login</a>
+    </div>
+    </form>
+</section>
+</body>
+</html>

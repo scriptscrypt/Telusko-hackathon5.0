@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+         <!-- partial -->
+         <%- include('partials/css') %>
+
+    <title>User Dashboard</title>
+</head>
+<body>
+  
+    <section class="cflex">
+        <h2>User dashboard</h2>
+
+        <div class="spaceBtw">   
+            <div class="">     <a href="/">Home</a>  </div>
+        
+        <div class=""><button id="conWallet" class="btn conWallet mp16" onclick="enableEth()">Connect Metamask</button>
+        </div>
+        </div>
+
+    
+        <div class="cardWrapper">
+        <!-- Card 1 -->
+        <div class="card cflex mp8"> 
+            <img class="imgResize mp8" src="./ccimages/img1.jpg" alt="Image Loading"> 
+            <p class="mp8">Telusko </p>
+            <a class="Link mpb8" href="https://www.youtube.com/c/Telusko">Youtube Channel</a>
+            <button class="mpb8 btn" onclick="sendTransaction('0x8581f86c59E56C63022A0F2cCEA431bfed1ADBa1')">Send Ether</button>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card cflex mp8"> 
+            <img class="imgResize mp8" src="./ccimages/img2.jpg" alt="Image Loading"> 
+            <p class="mp8">Dr. Bro</p>
+            <a class="Link mpb8" href="https://www.youtube.com/c/DrBro">Youtube Channel</a>
+            <button class="mpb8 btn" onclick="sendTransaction('0x67c882EC2E4dc0460c8E9A8d1A826a3e53fc6C05')">Send Ether</button>
+        </div>
+
+         <!-- Card 3 -->
+         <div class="card cflex mp8"> 
+            <img class="imgResize mp8" src="./ccimages/img3.jpg" alt="Image Loading"> 
+            <p class="mp8">Jennys lectures</p>
+            <a class="Link mpb8" href="https://www.youtube.com/c/JennyslecturesCSITNETJRF">Youtube Channel</a>
+            <button class="mpb8 btn" onclick="sendTransaction('0x8581f86c59E56C63022A0F2cCEA431bfed1ADBa1')">Send Ether</button>
+        </div>
+
+         <!-- Card 4 -->
+         <div class="card cflex mp8"> 
+            <img class="imgResize mp8" src="./ccimages/img4.jpg" alt="Image Loading"> 
+            <p class="mp8">DVINKANNADA</p>
+            <a class="Link mpb8" href="https://www.youtube.com/c/DVINKANNADA">Youtube Channel</a>
+            <button class="mpb8 btn" onclick="sendTransaction('0x8581f86c59E56C63022A0F2cCEA431bfed1ADBa1')">Send Ether</button>
+        </div>
+
+         <!-- Card 5 -->
+         <div class="card cflex mp8"> 
+            <img class="imgResize mp8" src="./ccimages/img5.jpg" alt="Image Loading"> 
+            <p class="mp8">Hitesh Choudhary</p>
+            <a class="Link mpb8" href="https://www.youtube.com/c/HiteshChoudharydotcom">Youtube Channel</a>
+            <button class="mpb8 btn" onclick="sendTransaction('0x8581f86c59E56C63022A0F2cCEA431bfed1ADBa1')">Send Ether</button>
+        </div>
+
+             <!-- Card 6 -->
+             <div class="card cflex mp8"> 
+                <img class="imgResize mp8" src="./ccimages/img6.jpg" alt="Image Loading"> 
+                <p class="mp8">Gate Smashers</p>
+                <a class="Link mpb8" href="https://www.youtube.com/c/GateSmashers">Youtube Channel</a>
+                <button class="mpb8 btn" onclick="sendTransaction('0x8581f86c59E56C63022A0F2cCEA431bfed1ADBa1')">Send Ether</button>
+            </div>
+
+            
+             <!-- Card 7 -->
+             <div class="card cflex mp8"> 
+                <img class="imgResize mp8" src="./ccimages/img7.jpg" alt="Image Loading"> 
+                <p class="mp8">KripalAmannaVlogs</p>
+                <a class="Link mpb8" href=" https://www.youtube.com/c/KripalAmannaVlogs">Youtube Channel</a>
+                <button class="mpb8 btn" onclick="sendTransaction('0x8581f86c59E56C63022A0F2cCEA431bfed1ADBa1')">Send Ether</button>
+            </div>
+
+               <!-- Card 8-->
+               <div class="card cflex mp8"> 
+                <img class="imgResize mp8" src="./ccimages/img9.jpg" alt="Image Loading"> 
+                <p class="mp8">GJKrish</p>
+                <a class="Link mpb8" href="https://www.youtube.com/c/GJKrish">Youtube Channel</a>
+                <button class="mpb8 btn" onclick="sendTransaction('0x8581f86c59E56C63022A0F2cCEA431bfed1ADBa1')">Send Ether</button>
+            </div>
+
+             <!-- Card 9-->
+             <div class="card cflex mp8"> 
+                <img class="imgResize mp8" src="./ccimages/img8.jpg" alt="Image Loading"> 
+                <p class="mp8">Ashish chanchalani</p>
+                <a class="Link mpb8" href="https://www.youtube.com/c/ashishchanchlanivines">Youtube Channel</a>
+                <button class="mpb8 btn" onclick="sendTransaction('0x8581f86c59E56C63022A0F2cCEA431bfed1ADBa1')">Send Ether</button>
+            </div>
+
+             <!-- Card 10-->
+             <div class="card cflex mp8"> 
+                <img class="imgResize mp8" src="./ccimages/img10.jpg" alt="Image Loading"> 
+                <p class="mp8">CodeWithHarry</p>
+                <a class="Link mpb8" href="https://www.youtube.com/c/CodeWithHarry">Youtube Channel</a>
+                <button class="mpb8 btn" onclick="sendTransaction('0x8581f86c59E56C63022A0F2cCEA431bfed1ADBa1')">Send Ether</button>
+            </div>
+
+    </div>
+</section>
+
+
+    <script>
+    </script>
+
+
+
+
+
+       <!-- Ethers cdn -->
+       <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+       <!-- My functions -->
+       <script>
+        let accounts;
+
+const scAddress = "0xd9145CCE52D386f254917e481eB44e9943F39138"
+const scABI = [
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "name",
+        "outputs": [
+            {
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_spender",
+                "type": "address"
+            },
+            {
+                "name": "_value",
+                "type": "uint256"
+            }
+        ],
+        "name": "approve",
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "totalSupply",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_from",
+                "type": "address"
+            },
+            {
+                "name": "_to",
+                "type": "address"
+            },
+            {
+                "name": "_value",
+                "type": "uint256"
+            }
+        ],
+        "name": "transferFrom",
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "decimals",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint8"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_owner",
+                "type": "address"
+            }
+        ],
+        "name": "balanceOf",
+        "outputs": [
+            {
+                "name": "balance",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "symbol",
+        "outputs": [
+            {
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "_to",
+                "type": "address"
+            },
+            {
+                "name": "_value",
+                "type": "uint256"
+            }
+        ],
+        "name": "transfer",
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "_owner",
+                "type": "address"
+            },
+            {
+                "name": "_spender",
+                "type": "address"
+            }
+        ],
+        "name": "allowance",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "payable": true,
+        "stateMutability": "payable",
+        "type": "fallback"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "owner",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "name": "spender",
+                "type": "address"
+            },
+            {
+                "indexed": false,
+                "name": "value",
+                "type": "uint256"
+            }
+        ],
+        "name": "Approval",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "name": "from",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "name": "to",
+                "type": "address"
+            },
+            {
+                "indexed": false,
+                "name": "value",
+                "type": "uint256"
+            }
+        ],
+        "name": "Transfer",
+        "type": "event"
+    }
+]
+
+
+const provider = new ethers.providers.Web3Provider(window.ethereum);
+console.log(`Provider - ${provider}`);
+
+window.onload = function (){
+    console.log("Dapp loaded ")
+        if(window.ethereum){
+            this.ethereum.on('accountsChanged', handleAccountChanged)
+
+            window.ethereum.request({method: 'eth_accounts'})
+            .then(handleAccountChanged)
+            .catch((err) =>{
+                console.log(err)
+            })   
+        }
+        else{
+            console.log("Please install a digital wallet")
+        }     
+
+}
+const handleAccountChanged = (a) =>{
+    accounts = a;
+    console.log("Account changed");
+    console.log(a)
+}
+
+// document.getElementById('conWallet').addEventListener("click", enableEth); 
+  const  enableEth = async () => {
+    try{
+    accounts = await window.ethereum.request({method: 'eth_requestAccounts'})
+    
+    }
+    catch(err){
+        console.log(err.code);
+    }
+
+    console.log(accounts);
+    console.log(`Account - ${accounts}`);
+}
+// if(!account[0]){
+//     document.getElementById('conWallet').style.display = none;
+// }
+
+const checkEthBalance = async () => {
+    let balance;
+    try{
+    balance = await window.ethereum.request({method: 'eth_getBalance', params: [accounts[0], "latest"] 
+
+})  
+    }
+    catch(err){
+        console.log(err)
+    }
+
+    console.log(balance)
+    console.log(`Parsed Ethereum balance - ${parseInt(balance)/(Math.pow(10, 18))}`);
+
+}
+
+const sendTransaction = (contAddress, amtSent) =>{
+    try {
+        let params = [
+            {
+                from: accounts[0],
+                to: contAddress,
+                gas:Number(21000).toString(16),
+                gasPrice: Number(2500000).toString(16),
+                value:Number(500000000000000).toString(16)
+            }
+        ]
+        const sendMoney = window.ethereum.request({method:'eth_sendTransaction', params})
+
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+const checkTokenBalance = async () =>{
+    let scContract = new ethers.Contract(scAddress, scABI, provider);
+
+    const balance = await scContract.balanceOf(accounts[0]);
+
+    console.log(balance.toString());
+}
+
+const transferToken = async () =>{
+    let scContract = new ethers.Contract(scAddress, scABI, provider.getSigner())
+
+    const amount = ethers.utils.parseUnits("0.01", 18)
+    console.log(parseInt(amount)/Math.pow(10,18))
+
+    let tx = await scContract.transfer("0x1377054388861799E3A2c4588f604f9C06088801", amount);
+
+    checkEvents();
+} 
+
+const checkEvents = async () =>{
+    let scContract = new ethers.Contract(scAddress, scABI, provider)
+
+    scContract.on("Transfer", (from, to, amount) => {
+            console.log("Got the event - Transfer");
+            console.log(from, to, amount.toString());
+    })
+}
+
+const simpleSignature = async () =>{
+    let signer = provider.getSigner();
+    let message = "This is the message inside of Simple signature";
+
+    let signature = await signer.signMessage(message);
+    let address = ethers.utils.verifyMessage(message, signature)
+    console.log(`Signature - ${signature}`);
+    console.log(`Address - ${address}, Account - ${accounts[0]}`)
+
+    if(address.toUpperCase() === accounts[0].toUpperCase()){
+        console.log("You are verified!")
+    }
+    else{
+            console.log("This is not your address ")
+        }
+    
+   
+}
+
+       </script>
+</body> 
+</html>

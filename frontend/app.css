@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comfortaa&family=Koulen&family=Neucha&family=Nova+Cut&family=Righteous&family=Roboto+Condensed:wght@300&family=Roboto+Serif:opsz,wght@8..144,300&family=Roboto:wght@300&family=Shadows+Into+Light&family=Teko:wght@300&family=Yanone+Kaffeesatz&display=swap');
+
+
+:root{
+    --primary: rgb(108, 99, 255);
+    --secondary: rgb(93, 93, 99);
+    --black: rgb(30, 30, 30);
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', 'sans-serif';
+}
+*{
+    color: var(--black);
+}
+.btn{
+    color: #fff;
+    width:fit-content !important;
+    padding: 8px 32px !important;
+    border-radius: 32px;
+    background-color: var(--primary);
+    border: 1px solid var(--secondary);
+}
+.btn:hover{
+    cursor: pointer;
+    
+    color:var(--secondary);
+    background-color: #fff;
+    border: 1px solid var(--primary);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--primary);
+    width: 100vw;
+}
+.cardWrapper{
+ display: grid;
+ grid-template-columns:repeat(3, 1fr);
+}
+.card{
+    width: 272px;
+    height: 300px;
+    margin: 32px;
+    padding: 32px;
+    box-shadow: 0px 0px 2px 1px var(--primary);
+    border-radius: 16px;
+    border: 1px solid var(--black);
+}
+.card:hover{
+    box-shadow: 0px 0px 8px 1px var(--primary);
+}
+.mpb8{
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.landing{
+    display:flex;
+    justify-content:baseline;
+    align-items: flex-start;
+}
+.imgResize{
+    width: 136px;
+    height: 136px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.hpImg{
+    width: 32vw;
+    object-fit: contain;
+}
+.sec1{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap !important;
+
+}
+.sec3{
+    width: 100vw;
+    height: 100vh;
+}
+.txtPri{
+    color: var(--primary);
+}
+.loginCard{
+    box-shadow: 0px 0px 2px 1px var(--primary);
+    border-radius: 8px;
+    border: 1px solid var(--black);
+}
+.cardInput{
+    border-radius: 8px;
+}
+.Link:hover{
+    text-decoration: underline !important;
+}
+.spaceBtw{
+    display:flex;
+    justify-content:space-around !important;
+    align-items:center;
+}
+
+/*Font styles*/
+.f1{
+    font-size:64px;
+    font-family: 'Righteous', sans-serif;
+}
+.f2{
+    font-size:48px;
+    font-family: 'Koulen', sans-serif;
+}
+
+@media (max-width: 560px) {
+    .hpImg{
+        height: 72vw;
+        object-fit: cover;
+    }
+}
